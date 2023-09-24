@@ -1,0 +1,136 @@
+
+.header {
+  display: flex;
+}
+.lobby-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 56px;
+  font-size: 32px;
+  font-style: "IBM Plex Sans";
+  font-weight: bolder;
+  padding-bottom: 40px;
+  color: #363636;
+}
+.lobby-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.lobby-genre {
+  padding: 0;
+  width: 310px;
+  height: 56px;
+}
+.lobby-players {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 490px;
+  height: 400px;
+  margin: 0 auto;
+}
+.lobby-genre .MuiInputLabel-root {
+  color: rgb(225, 225, 225) !important;
+  left: 0px !important;
+  font-family: "IBM Plex Mono" !important;
+  font-weight: 600;
+  font-size: 16px !important;
+  transform-origin: top left !important;
+}
+
+.lobby-genre .Mui-focused {
+  color: rgb(225, 225, 225) !important;
+}
+
+.buttonStyle {
+  color: #ededed;
+  background-color: rgb(57, 56, 55);
+  /* padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px; */
+  border: none;
+  font-weight: bolder;
+  font-size: 20px;
+  width: 310px;
+  height: 56px;
+}
+
+.buttonStyle:hover {
+  background-color: #292929;
+  color: #989494;
+  cursor: pointer;
+}
+
+.lobby-interface {
+  width: 660px;
+  margin-left: ;
+  margin-left: 80px;
+}
+
+.lobby-interface-top-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.lobby-interface-bot-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.lobby-interface-button-spacer {
+  height: 10px;
+  min-width: 40px;
+}
+
+.lobby-interface-prompts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: scroll;
+  height: 400px;
+  color: #808080;
+}
+
+.lobby-interface-prompts-container > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.icon-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: 310px;
+  height: 56px;
+  border:0;
+  background-color: transparent;
+  font-size: 20px;
+  font-style: "IBM Plex Sans";
+  color: #808080;
+}
+
+.lobby-column {
+  margin-left: 100px;
+}
+
+.lobby-interface-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mute-footer {
+  
+}
